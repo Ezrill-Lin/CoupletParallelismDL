@@ -58,9 +58,9 @@ By designing a questionaire with 8 selected couplets, we collected parallelism s
 - **word_segmentation.ipynb**:
   - Fine-tuned SikuBERT model to do word segmentation.
 - **Semantic.ipynb**:
-  - 
+  - Leveraged embeddings from SikuBERT model to measure the character-wise sementic distance.
 - **Theme and Rmotion.ipynb**:
-  - 
+  - Fine-tuned SikuBERT model to do the sentence-wise Theme and Emotion Semantic Matching.
 - **weightsOptimization.ipynb**:
   - Optimized weights using RMSE to compute the final model output of parallelism score.
 

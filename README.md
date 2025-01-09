@@ -48,12 +48,15 @@ By designing a questionaire with 8 selected couplets, we collected parallelism s
   - **Theme and emotion** play a significant role in human evaluation of parallelism.
   - The model struggles with classical allusions and cultural references, areas where human cognition excels.
 
-## ⚡ Strengths
-- Comprehensive evaluation incorporating syntax, semantics, theme, and emotion.
-- Diversity in survey demographics ensured robust human evaluation data.
-
-## 🧩 Limitations & Future Work
-1. **Training Epochs**: Limited by computational resources; longer training could enhance performance.
-2. **Phonetic Features**: Incorporating phonetic data could improve alignment with human judgments.
-3. **Cultural Nuances**: The model could be extended to handle allusions and cultural references better.
+## 📜 Files Uploaded to GitHub
+- **Couplet_Data_Process.ipynb**:
+  - Applied [Language Technology Platform (LTP) package](https://github.com/HIT-SCIR/ltp) to mass-label the raw Chinese text for word segmentation and POS tagging training.
+- **Roberta.ipynb**:
+  - Fine-tuned RoBERTa model to do POS tagging.
+- **data_process_for_word_segmentation.ipynb**:
+  - Further process of the dataset output from **Couplet_Data_Process.ipynb** for word segmentation model training.
+- **word_segmentation.ipynb**:
+  - Fine-tuned SikuBERT model to do word segmentation.
+- **weightsOptimization.ipynb**:
+  - Optimized weights using RMSE to compute the final model output of parallelism score.
 

@@ -5,6 +5,7 @@ This project models human evaluation of the **parallelism** in 7-character class
 
 ## 🛠 Methodology
 We implemented a framework that combines multiple computational models to evaluate couplet parallelism:
+![Scemaic disgram of the project](README/intro.png)
 1. **Word Segmentation**:
    - Splits text into meaningful words for precise alignment.
    - Uses a feed-forward neural network with **SikuBERT** embeddings for segmentation.

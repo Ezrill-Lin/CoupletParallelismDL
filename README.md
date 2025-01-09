@@ -4,15 +4,15 @@
 This project models human evaluation of the **parallelism** in 7-character classical Chinese couplets using **deep learning techniques**. Parallelism is a key literary feature of Chinese couplets, encompassing syntactic, semantic, and thematic alignment between two poetic lines. Our goal is to develop a model that imitates human judgment of parallelism, providing insights into how this complex literary art is perceived.
 
 ## 🛠 Methodology
-We implemented a framework that combines multiple computational models to evaluate couplet parallelism:
 ![Scemaic disgram of the project](README/intro.png)
+We implemented a framework that combines multiple computational models to evaluate couplet parallelism:
 1. **Word Segmentation**:
    - Splits text into meaningful words for precise alignment.
-   - Uses a feed-forward neural network with **SikuBERT** embeddings for segmentation.
+   - Uses a feed-forward neural network with [**SikuBERT**](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing) embeddings for segmentation.
    
 2. **Part-of-Speech (POS) Tagging**:
    - Identifies grammatical structures to compare syntactic alignment.
-   - Utilizes a fine-tuned **RoBERTa** model for POS tagging.
+   - Utilizes a fine-tuned [**RoBERTa**](https://huggingface.co/KoichiYasuoka/roberta-classical-chinese-large-upos) model for POS tagging.
 
 3. **Character-Wise Semantic Matching**:
    - Measures semantic similarity between corresponding characters in the two couplet halves.

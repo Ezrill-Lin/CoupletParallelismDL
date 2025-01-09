@@ -42,6 +42,7 @@ By designing a questionaire with 8 selected couplets, we collected parallelism s
   - Collected human ratings for parallelism across eight carefully curated couplets.
 
 ## 🧠 Results
+![Barplot of Model output and Human Rating of Parallelism](README/r3.png)
 - The final model achieved a high degree of alignment with human scores, especially for **featureless couplets**.
 - Key findings:
   - **Theme and emotion** play a significant role in human evaluation of parallelism.

@@ -48,7 +48,7 @@ By designing a questionaire with 8 selected couplets, we collected parallelism s
   - **Theme and emotion** play a significant role in human evaluation of parallelism.
   - The model struggles with classical allusions and cultural references, areas where human cognition excels.
 
-## 📜 Files Uploaded to GitHub
+## 📜 Files in this GitHub Page
 - **Couplet_Data_Process.ipynb**:
   - Applied [Language Technology Platform (LTP) package](https://github.com/HIT-SCIR/ltp) to mass-label the raw Chinese text for word segmentation and POS tagging training.
 - **Roberta.ipynb**:
@@ -57,6 +57,10 @@ By designing a questionaire with 8 selected couplets, we collected parallelism s
   - Further process of the dataset output from **Couplet_Data_Process.ipynb** for word segmentation model training.
 - **word_segmentation.ipynb**:
   - Fine-tuned SikuBERT model to do word segmentation.
+- **Semantic.ipynb**:
+  - 
+- **Theme and Rmotion.ipynb**:
+  - 
 - **weightsOptimization.ipynb**:
   - Optimized weights using RMSE to compute the final model output of parallelism score.
 

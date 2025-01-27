@@ -1,7 +1,9 @@
 # Couplet Parallelism Measurement using Deep Learning
 
 ## Update:
-All contents below demenstrate the completed work for this project where we use the weighted average of 4 sub-models to reflect the modeled parallelism score. We are now looking for alternative model to replace the weighted average, as the ourputs from 4 sub-models do not contribute to the framework independently. There are potential problems of "colinearity". Currenly, we are trying to use Siamese Neural Network to compare and evaluate the parallelism score.
+All contents below demenstrate the completed work for this project where we use the weighted average of 4 sub-models to reflect the modeled parallelism score. We are now looking for alternative model to replace the weighted average, as the ourputs from 4 sub-models do not contribute to the framework independently. There are potential problems of "colinearity". Currenly, we are trying to use Siamese Neural Network to compare and evaluate the parallelism score, although the result get from the Siamese network is not satisfactory at current stage. 
+
+For more details, you can refer to the file **SNN.ipynb**
 ---
 
 ## 📖 Overview

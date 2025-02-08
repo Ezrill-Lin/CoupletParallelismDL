@@ -29,7 +29,7 @@ We implemented a framework that combines multiple computational models to evalua
    - Leverages fine-tuned SikuBERT embeddings trained on a labeled classical poetry dataset.
 
 ### Weighted Average Scoring
-The parallelism score is computed as a **weighted average** of the outputs from the above models. We optimized the weights using **Root Mean Square Error (RMSE)** to align model predictions with human-assigned scores.
+The parallelism score is computed as a **weighted average** of the outputs from the above models. We optimized the weights using **Root Mean Square Error (RMSE)** to align model predictions with human parallelism assessment scores.
 
 ### Comparison with Human Ratings
 By designing a questionaire with 8 selected couplets, we collected parallelism scores from human participants to make comparison with our model output to check whether our model imitate human perception
